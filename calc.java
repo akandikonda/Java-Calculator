@@ -4,7 +4,7 @@ import javax.swing.*;
 public class calc extends JFrame implements ActionListener {
 	
 	Button [] [] btn = new Button [3] [3];
-	Button zero, one,two, three, four, five,six, seven, eight, nine, backspace, plus, minus, times, div,clear,equals;
+	Button zero, one,two, three, four, five,six, seven, eight, nine, plus, minus, times, div,clear,equals;
 	Label label1, label2;
 	JTextField text1, text2; 
 	static double sum, diff, prod, qou;
